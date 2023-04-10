@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkslim_mom_frontend=self.webpackChunkslim_mom_frontend||[]).push([[81],{81:function(n,e,r){r.r(e),r.d(e,{CalculatorPage:function(){return i}});var c=r(184),s=function(){return(0,c.jsx)("div",{children:(0,c.jsx)("div",{})})},i=function(){return(0,c.jsxs)("div",{className:"container",children:[(0,c.jsx)("h1",{children:"calculator page"}),(0,c.jsx)(s,{})]})}}}]);
+//# sourceMappingURL=81.9dba60d4.chunk.js.map
