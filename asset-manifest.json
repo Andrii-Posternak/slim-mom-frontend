@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/slim-mom-frontend/static/css/main.94656bf4.css",
-    "main.js": "/slim-mom-frontend/static/js/main.c11021ee.js",
+    "main.css": "/slim-mom-frontend/static/css/main.8abc051f.css",
+    "main.js": "/slim-mom-frontend/static/js/main.e583d924.js",
     "static/js/962.9b9b9d3b.chunk.js": "/slim-mom-frontend/static/js/962.9b9b9d3b.chunk.js",
     "static/js/97.e54ce34e.chunk.js": "/slim-mom-frontend/static/js/97.e54ce34e.chunk.js",
     "static/js/81.9dba60d4.chunk.js": "/slim-mom-frontend/static/js/81.9dba60d4.chunk.js",
@@ -11,9 +11,12 @@
     "static/js/286.77820eff.chunk.js": "/slim-mom-frontend/static/js/286.77820eff.chunk.js",
     "static/media/verdana_regular.ttf": "/slim-mom-frontend/static/media/verdana_regular.66debd0285340bb23dd6.ttf",
     "static/media/verdana_bold.ttf": "/slim-mom-frontend/static/media/verdana_bold.086f89a079244e4232de.ttf",
+    "static/media/logoTablet.svg": "/slim-mom-frontend/static/media/logoTablet.4e4acebcf65e61d2ca2b4da2b578ecd8.svg",
+    "static/media/logoDesktop.svg": "/slim-mom-frontend/static/media/logoDesktop.041c338bdc01e656a18d49b9e461ef96.svg",
+    "static/media/logoMobile.svg": "/slim-mom-frontend/static/media/logoMobile.07a18f40ea00a06ad6a66ed641258fde.svg",
     "index.html": "/slim-mom-frontend/index.html",
-    "main.94656bf4.css.map": "/slim-mom-frontend/static/css/main.94656bf4.css.map",
-    "main.c11021ee.js.map": "/slim-mom-frontend/static/js/main.c11021ee.js.map",
+    "main.8abc051f.css.map": "/slim-mom-frontend/static/css/main.8abc051f.css.map",
+    "main.e583d924.js.map": "/slim-mom-frontend/static/js/main.e583d924.js.map",
     "962.9b9b9d3b.chunk.js.map": "/slim-mom-frontend/static/js/962.9b9b9d3b.chunk.js.map",
     "97.e54ce34e.chunk.js.map": "/slim-mom-frontend/static/js/97.e54ce34e.chunk.js.map",
     "81.9dba60d4.chunk.js.map": "/slim-mom-frontend/static/js/81.9dba60d4.chunk.js.map",
@@ -23,7 +26,7 @@
     "286.77820eff.chunk.js.map": "/slim-mom-frontend/static/js/286.77820eff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94656bf4.css",
-    "static/js/main.c11021ee.js"
+    "static/css/main.8abc051f.css",
+    "static/js/main.e583d924.js"
   ]
 }
