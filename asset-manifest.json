@@ -1,32 +1,39 @@
 {
   "files": {
     "main.css": "/slim-mom-frontend/static/css/main.8abc051f.css",
-    "main.js": "/slim-mom-frontend/static/js/main.e583d924.js",
-    "static/js/962.9b9b9d3b.chunk.js": "/slim-mom-frontend/static/js/962.9b9b9d3b.chunk.js",
-    "static/js/97.e54ce34e.chunk.js": "/slim-mom-frontend/static/js/97.e54ce34e.chunk.js",
-    "static/js/81.9dba60d4.chunk.js": "/slim-mom-frontend/static/js/81.9dba60d4.chunk.js",
+    "main.js": "/slim-mom-frontend/static/js/main.e8143e2f.js",
+    "static/css/484.ad1dc638.chunk.css": "/slim-mom-frontend/static/css/484.ad1dc638.chunk.css",
+    "static/js/484.5ddb388a.chunk.js": "/slim-mom-frontend/static/js/484.5ddb388a.chunk.js",
+    "static/js/97.7aabcf96.chunk.js": "/slim-mom-frontend/static/js/97.7aabcf96.chunk.js",
+    "static/js/81.9ed21cb5.chunk.js": "/slim-mom-frontend/static/js/81.9ed21cb5.chunk.js",
     "static/css/232.c954f599.chunk.css": "/slim-mom-frontend/static/css/232.c954f599.chunk.css",
-    "static/js/232.e322e07a.chunk.js": "/slim-mom-frontend/static/js/232.e322e07a.chunk.js",
+    "static/js/232.0464d2f4.chunk.js": "/slim-mom-frontend/static/js/232.0464d2f4.chunk.js",
     "static/css/286.5515b021.chunk.css": "/slim-mom-frontend/static/css/286.5515b021.chunk.css",
-    "static/js/286.77820eff.chunk.js": "/slim-mom-frontend/static/js/286.77820eff.chunk.js",
+    "static/js/286.ccb90ba1.chunk.js": "/slim-mom-frontend/static/js/286.ccb90ba1.chunk.js",
+    "static/js/724.a235dc22.chunk.js": "/slim-mom-frontend/static/js/724.a235dc22.chunk.js",
     "static/media/verdana_regular.ttf": "/slim-mom-frontend/static/media/verdana_regular.66debd0285340bb23dd6.ttf",
     "static/media/verdana_bold.ttf": "/slim-mom-frontend/static/media/verdana_bold.086f89a079244e4232de.ttf",
+    "static/media/strawberry.png": "/slim-mom-frontend/static/media/strawberry.1c284af98f1ce377ad10.png",
+    "static/media/banana.png": "/slim-mom-frontend/static/media/banana.f24511a2d04fd6c36038.png",
+    "static/media/leaves.png": "/slim-mom-frontend/static/media/leaves.1110806d7ae1e54afcd7.png",
     "static/media/logoTablet.svg": "/slim-mom-frontend/static/media/logoTablet.4e4acebcf65e61d2ca2b4da2b578ecd8.svg",
     "static/media/logoDesktop.svg": "/slim-mom-frontend/static/media/logoDesktop.041c338bdc01e656a18d49b9e461ef96.svg",
     "static/media/logoMobile.svg": "/slim-mom-frontend/static/media/logoMobile.07a18f40ea00a06ad6a66ed641258fde.svg",
     "index.html": "/slim-mom-frontend/index.html",
     "main.8abc051f.css.map": "/slim-mom-frontend/static/css/main.8abc051f.css.map",
-    "main.e583d924.js.map": "/slim-mom-frontend/static/js/main.e583d924.js.map",
-    "962.9b9b9d3b.chunk.js.map": "/slim-mom-frontend/static/js/962.9b9b9d3b.chunk.js.map",
-    "97.e54ce34e.chunk.js.map": "/slim-mom-frontend/static/js/97.e54ce34e.chunk.js.map",
-    "81.9dba60d4.chunk.js.map": "/slim-mom-frontend/static/js/81.9dba60d4.chunk.js.map",
+    "main.e8143e2f.js.map": "/slim-mom-frontend/static/js/main.e8143e2f.js.map",
+    "484.ad1dc638.chunk.css.map": "/slim-mom-frontend/static/css/484.ad1dc638.chunk.css.map",
+    "484.5ddb388a.chunk.js.map": "/slim-mom-frontend/static/js/484.5ddb388a.chunk.js.map",
+    "97.7aabcf96.chunk.js.map": "/slim-mom-frontend/static/js/97.7aabcf96.chunk.js.map",
+    "81.9ed21cb5.chunk.js.map": "/slim-mom-frontend/static/js/81.9ed21cb5.chunk.js.map",
     "232.c954f599.chunk.css.map": "/slim-mom-frontend/static/css/232.c954f599.chunk.css.map",
-    "232.e322e07a.chunk.js.map": "/slim-mom-frontend/static/js/232.e322e07a.chunk.js.map",
+    "232.0464d2f4.chunk.js.map": "/slim-mom-frontend/static/js/232.0464d2f4.chunk.js.map",
     "286.5515b021.chunk.css.map": "/slim-mom-frontend/static/css/286.5515b021.chunk.css.map",
-    "286.77820eff.chunk.js.map": "/slim-mom-frontend/static/js/286.77820eff.chunk.js.map"
+    "286.ccb90ba1.chunk.js.map": "/slim-mom-frontend/static/js/286.ccb90ba1.chunk.js.map",
+    "724.a235dc22.chunk.js.map": "/slim-mom-frontend/static/js/724.a235dc22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8abc051f.css",
-    "static/js/main.e583d924.js"
+    "static/js/main.e8143e2f.js"
   ]
 }
