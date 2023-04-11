@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkslim_mom_frontend=self.webpackChunkslim_mom_frontend||[]).push([[643],{643:function(n,e,i){i.r(e),i.d(e,{LoginPage:function(){return c}});var r=i(184),s=function(){return(0,r.jsx)("div",{children:(0,r.jsx)("div",{})})},c=function(){return(0,r.jsxs)("div",{className:"container",children:[(0,r.jsx)("h1",{children:"login page"}),(0,r.jsx)(s,{}),";"]})}}}]);
-//# sourceMappingURL=643.3ee8d2f1.chunk.js.map
