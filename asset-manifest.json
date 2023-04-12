@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/slim-mom-frontend/static/css/main.8abc051f.css",
-    "main.js": "/slim-mom-frontend/static/js/main.fc3bc601.js",
-    "static/css/902.6c5bcf9f.chunk.css": "/slim-mom-frontend/static/css/902.6c5bcf9f.chunk.css",
-    "static/js/902.9644a90b.chunk.js": "/slim-mom-frontend/static/js/902.9644a90b.chunk.js",
+    "main.js": "/slim-mom-frontend/static/js/main.a70bf5dd.js",
+    "static/css/559.60398811.chunk.css": "/slim-mom-frontend/static/css/559.60398811.chunk.css",
+    "static/js/559.47ab587d.chunk.js": "/slim-mom-frontend/static/js/559.47ab587d.chunk.js",
     "static/js/97.0359cd02.chunk.js": "/slim-mom-frontend/static/js/97.0359cd02.chunk.js",
     "static/js/81.bd05128c.chunk.js": "/slim-mom-frontend/static/js/81.bd05128c.chunk.js",
     "static/css/232.93bb44df.chunk.css": "/slim-mom-frontend/static/css/232.93bb44df.chunk.css",
@@ -21,9 +21,9 @@
     "static/media/logoMobile.svg": "/slim-mom-frontend/static/media/logoMobile.07a18f40ea00a06ad6a66ed641258fde.svg",
     "index.html": "/slim-mom-frontend/index.html",
     "main.8abc051f.css.map": "/slim-mom-frontend/static/css/main.8abc051f.css.map",
-    "main.fc3bc601.js.map": "/slim-mom-frontend/static/js/main.fc3bc601.js.map",
-    "902.6c5bcf9f.chunk.css.map": "/slim-mom-frontend/static/css/902.6c5bcf9f.chunk.css.map",
-    "902.9644a90b.chunk.js.map": "/slim-mom-frontend/static/js/902.9644a90b.chunk.js.map",
+    "main.a70bf5dd.js.map": "/slim-mom-frontend/static/js/main.a70bf5dd.js.map",
+    "559.60398811.chunk.css.map": "/slim-mom-frontend/static/css/559.60398811.chunk.css.map",
+    "559.47ab587d.chunk.js.map": "/slim-mom-frontend/static/js/559.47ab587d.chunk.js.map",
     "97.0359cd02.chunk.js.map": "/slim-mom-frontend/static/js/97.0359cd02.chunk.js.map",
     "81.bd05128c.chunk.js.map": "/slim-mom-frontend/static/js/81.bd05128c.chunk.js.map",
     "232.93bb44df.chunk.css.map": "/slim-mom-frontend/static/css/232.93bb44df.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.8abc051f.css",
-    "static/js/main.fc3bc601.js"
+    "static/js/main.a70bf5dd.js"
   ]
 }
