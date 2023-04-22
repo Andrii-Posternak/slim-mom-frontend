@@ -1,15 +1,16 @@
+import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 import { Formik, Form, Field } from 'formik';
 import { PersistFormikValues } from 'formik-persist-values';
-
-import styles from './DailyCaloriesForm.module.scss';
+import {
+  getCalorie,
+  getCalorieAuth,
+} from 'redux/dailyCalorie/dailyCalorieOperations';
+import { selectAuthStatus } from 'redux/auth/authSlice';
+import { routes } from 'utils/routes';
 import { calorieSchema } from 'helpers/validation';
 import { Button } from 'components/Button/Button';
-import { useDispatch, useSelector } from 'react-redux';
-import { selectAuthStatus } from 'redux/auth/authSlice';
-import { getCalorie } from 'redux/dailyCalorie/dailyCalorieOperations';
-import { getCalorieAuth } from 'redux/dailyCalorie/dailyCalorieOperations';
-import { useNavigate } from 'react-router-dom';
-import { routes } from 'utils/routes';
+import styles from './DailyCaloriesForm.module.scss';
 
 export const DailyCaloriesForm = ({ handleModalOpen }) => {
   const InputField = ({ label, type, value, name, onChange, onBlur }) => (

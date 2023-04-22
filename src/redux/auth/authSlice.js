@@ -25,7 +25,6 @@ const authSlice = createSlice({
       state.isFetchingCurrentUser = false;
     },
     resetToken(state, _) {
-      console.log('slice');
       state.idToken = null;
     },
     clearError(state, _) {
@@ -90,5 +89,8 @@ export const authReducer = authSlice.reducer;
 export const selectAuthStatus = state => state.auth.isAuthStatus;
 export const selectFetchingCurrentUser = state =>
   state.auth.isFetchingCurrentUser;
+export const selectError = state => state.auth.error;
+export const selectIsLoading = state => state.auth.isLoading;
+export const selectUserName = state => state.auth.user.name;
 
 export const { resetToken, clearError } = authSlice.actions;

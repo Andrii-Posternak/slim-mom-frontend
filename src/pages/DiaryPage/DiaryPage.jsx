@@ -19,7 +19,8 @@ export const DiaryPage = () => {
 
   useEffect(() => {
     dispatch(getEatenProducts(currentDate));
-  });
+    // eslint-disable-next-line
+  }, []);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

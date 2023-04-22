@@ -1,20 +1,19 @@
 import { useNavigate } from 'react-router-dom';
-import { useFormik } from 'formik';
 import { useDispatch, useSelector } from 'react-redux';
-
-import { Button } from 'components/Button/Button';
-import styles from './LoginForm.module.scss';
+import { useFormik } from 'formik';
+import { loginUser } from 'redux/auth/authOperations';
+import { clearError, selectIsLoading } from 'redux/auth/authSlice';
 import { routes } from 'utils/routes';
 import { loginSchema } from 'helpers/validation';
-import { loginUser } from 'redux/auth/authOperations';
+import { Button } from 'components/Button/Button';
 import { Loader } from 'components/Loader/Loader';
-import { clearError } from 'redux/auth/authSlice';
+import styles from './LoginForm.module.scss';
 
 export const LoginForm = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const isLoading = useSelector(state => state.auth.isLoading);
+  const isLoading = useSelector(selectIsLoading);
 
   const { handleSubmit, errors, handleChange, values, submitCount } = useFormik(
     {
@@ -34,7 +33,7 @@ export const LoginForm = () => {
     <>
       <p className={styles.heading}>Log in</p>
       {isLoading && <Loader />}
-      <form onSubmit={handleSubmit} className={styles.caloriesForm}>
+      <form className={styles.caloriesForm} onSubmit={handleSubmit} noValidate>
         <div className={styles.formWrapper}>
           <label className={styles.labelText}>
             <span className={styles.text}>Email</span>
@@ -70,10 +69,7 @@ export const LoginForm = () => {
           </label>
         </div>
         <div className={styles.buttonWrapper}>
-          <Button
-            type="submit"
-            mainStyle="active"
-          >
+          <Button type="submit" mainStyle="active">
             Log in
           </Button>
           <Button

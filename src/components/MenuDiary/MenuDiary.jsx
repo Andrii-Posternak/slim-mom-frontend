@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
 import React, { memo } from 'react';
+import PropTypes from 'prop-types';
+import { TbArrowBack } from 'react-icons/tb';
 import { DiaryAddProductForm } from 'components/DiaryAddProductForm/DiaryAddProductForm';
 import style from './MenuDiary.module.scss';
-import { TbArrowBack } from 'react-icons/tb';
 
 export const MenuDiary = memo(({ onClick }) => {
   return (

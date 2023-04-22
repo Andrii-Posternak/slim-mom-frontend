@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
 import React, { memo } from 'react';
-import style from './MenuModal.module.scss';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import { routes } from 'utils/routes';
+import style from './MenuModal.module.scss';
 
 export const MenuModal = memo(({ isActive, onClick }) => {
   return (

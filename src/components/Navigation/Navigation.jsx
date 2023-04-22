@@ -1,12 +1,13 @@
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useMedia } from 'react-use';
-import { routes } from 'utils/routes';
-import { RxHamburgerMenu } from 'react-icons/rx';
-import style from './Navigation.module.scss';
-import { MenuModal } from 'components/MenuModal/MenuModal';
-import { useState } from 'react';
-import { RxCross1 } from 'react-icons/rx';
 import { useSelector } from 'react-redux';
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { RxCross1 } from 'react-icons/rx';
+import { selectAuthStatus } from 'redux/auth/authSlice';
+import { routes } from 'utils/routes';
+import { MenuModal } from 'components/MenuModal/MenuModal';
+import style from './Navigation.module.scss';
 
 const getActive = ({ isActive }) =>
   isActive ? `${style.active} ${style.link}` : style.link;
@@ -15,7 +16,7 @@ const getActiveReg = ({ isActive }) =>
   isActive ? `${style.activeReg} ${style.regLink}` : style.regLink;
 
 export const Navigation = () => {
-  const isAuth = useSelector(state => state.auth.isAuthStatus);
+  const isAuth = useSelector(selectAuthStatus);
   const isTablet = useMedia('(max-width: 1279px)');
 
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);

@@ -1,13 +1,14 @@
 import { NavLink } from 'react-router-dom';
-import style from './UserInfo.module.scss';
-import { routes } from 'utils/routes';
-import { useMedia } from 'react-use';
 import { useDispatch, useSelector } from 'react-redux';
+import { useMedia } from 'react-use';
 import { logoutUser } from 'redux/auth/authOperations';
+import { selectUserName } from 'redux/auth/authSlice';
+import { routes } from 'utils/routes';
+import style from './UserInfo.module.scss';
 
 export const UserInfo = () => {
   const isMobile = useMedia('(max-width: 767px)');
-  const userName = useSelector(state => state.auth.user?.name);
+  const userName = useSelector(selectUserName);
   const dispatch = useDispatch();
 
   const logout = () => {

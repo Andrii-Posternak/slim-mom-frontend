@@ -1,21 +1,21 @@
-import { useFormik } from 'formik';
 import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { useFormik } from 'formik';
 import Notiflix from 'notiflix';
-
-import { Button } from 'components/Button/Button';
-import styles from './RegistrationForm.module.scss';
+import { selectIsLoading } from 'redux/auth/authSlice';
+import { loginUser } from 'redux/auth/authOperations';
 import { routes } from 'utils/routes';
 import { registerSchema } from 'helpers/validation';
 import { registerUserApi } from 'services/authApi';
-import { useDispatch, useSelector } from 'react-redux';
-import { loginUser } from 'redux/auth/authOperations';
+import { Button } from 'components/Button/Button';
 import { Loader } from 'components/Loader/Loader';
+import styles from './RegistrationForm.module.scss';
 
 export const RegistrationForm = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const isLoading = useSelector(state => state.auth.isLoading);
+  const isLoading = useSelector(selectIsLoading);
 
   const { handleSubmit, errors, handleChange, values, submitCount } = useFormik(
     {
@@ -45,7 +45,7 @@ export const RegistrationForm = () => {
     <>
       <p className={styles.heading}>Register</p>
       {isLoading && <Loader />}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} noValidate>
         <div className={styles.formWrapper}>
           <label className={styles.label}>
             <span className={styles.text}>Name</span>

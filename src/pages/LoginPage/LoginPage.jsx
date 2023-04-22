@@ -1,11 +1,12 @@
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import Notiflix from 'notiflix';
+import { selectError } from 'redux/auth/authSlice';
 import { LoginForm } from 'components/LoginForm/LoginForm';
 import styles from './LoginPage.module.scss';
 
 export const LoginPage = () => {
-  const error = useSelector(state => state.auth.error);
+  const error = useSelector(selectError);
 
   useEffect(() => {
     if (error && error !== "User doesn't exist") {

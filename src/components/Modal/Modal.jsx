@@ -1,20 +1,20 @@
-import scss from './Modal.module.scss';
-import { Button } from 'components/Button/Button';
-import { GrClose } from 'react-icons/gr';
-import { createPortal } from 'react-dom';
-
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
+import { NavLink } from 'react-router-dom';
 import { useWindowSize } from 'react-use';
 import { useSelector } from 'react-redux';
+import { GrClose } from 'react-icons/gr';
+import { TbArrowBack } from 'react-icons/tb';
 import {
   selectCalorieNorm,
   selectIsLoadingCalorie,
   selectNotRecFood,
 } from 'redux/dailyCalorie/dailyCalorieSlice';
-import { Loader } from 'components/Loader/Loader';
 import { routes } from 'utils/routes';
-import { NavLink } from 'react-router-dom';
-import { TbArrowBack } from 'react-icons/tb';
+import { Button } from 'components/Button/Button';
+import { Loader } from 'components/Loader/Loader';
+import scss from './Modal.module.scss';
+
 const modalRoot = document.querySelector('#modal-root');
 
 export const Modal = ({ onClose, isModalOpen }) => {
