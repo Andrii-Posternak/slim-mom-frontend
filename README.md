@@ -8,8 +8,8 @@ project structure, routing, Redux logic, backend development.
 
 ## Usage
 
-- follow the [link] (https://andrii-posternak.github.io/lim-mom-frontend/) to
-  get started
+- follow the [link](https://andrii-posternak.github.io/lim-mom-frontend/) to get
+  started
 - fill out the form and click "Start losing weight"  
    ![an example interface](./public/example1.jpg)
 - added a new product and its weight  
